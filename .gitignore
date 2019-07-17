@@ -1,0 +1,16 @@
+__pycache__/*
+*.sw[a-p]
+*.ini
+log.*
+*.log
+data/*
+test
+test-valid
+ignored/*
+*.save
+*.weights
+*.out
+*.wav
+*.h5
+*.csv
+*.png
