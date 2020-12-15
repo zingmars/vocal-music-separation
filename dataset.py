@@ -37,7 +37,7 @@ class Dataset:
         else:
             self.logger.critical("Folder %s does not exist!", folder)
             sys.exit(8)
-        if(len(self.mixture) != len(self.vocals)):
+        if (len(self.mixtures) != len(self.vocals)):
             self.logger.critical("There doesn't appear to be a vocal track for each mixture (or the other way around).")
             sys.exit(15)
 
